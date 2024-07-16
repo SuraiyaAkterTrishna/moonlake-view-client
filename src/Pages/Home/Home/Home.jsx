@@ -2,8 +2,8 @@
 
 const Home = () => {
     return (
-        <div>
-            Welcome to moonlake view
+        <div className="py-32">
+            <h2>This is home</h2>
         </div>
     );
 };
