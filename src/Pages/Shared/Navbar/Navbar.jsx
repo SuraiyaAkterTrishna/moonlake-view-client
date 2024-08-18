@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import logo from '../../../assets/images/logo.webp';
+import logo from '../../../assets/images/final.png';
+import PrimaryBtn from "../PrimaryBtn/PrimaryBtn";
 const Navbar = () => {
   const navOptions = (
     <>
@@ -18,8 +19,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <>
-      <div className="navbar fixed z-10 bg-opacity-30 bg-black text-white max-w-screen-xl">
+      <div className="navbar fixed z-10 bg-opacity-50 bg-black text-white max-w-screen-xl">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -46,19 +46,18 @@ const Navbar = () => {
             </ul>
           </div>
           
-          <div className="flex items-center">
-            <img width="40px" src={logo} alt="" />
-          <span className="text-xl ms-2">Moon Lake View</span>
+          <div className="hidden lg:flex">
+            <img className="h-20 rounded-xl" src={logo} alt="" />
           </div>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        
+        <div className="navbar-end">
+        <div className="hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
-        <div className="navbar-end">
-          <a className="btn">Button</a>
+          <PrimaryBtn>Login</PrimaryBtn>
         </div>
       </div>
-    </>
   );
 };
 

@@ -1,0 +1,11 @@
+.primary-btn {
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 30%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  padding: 6px 20px;
+  font-size: 18px;
+}
