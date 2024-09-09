@@ -1,6 +1,7 @@
 import Hero from "../../Hero/Hero";
 import Banner from "../Banner/Banner";
 import LatestProperties from "../LatestProperties/LatestProperties";
+import Properties from "../Properties/Properties";
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             <Banner></Banner>
             <Hero></Hero>
             <LatestProperties></LatestProperties>
+            <Properties></Properties>
         </div>
     );
 };
