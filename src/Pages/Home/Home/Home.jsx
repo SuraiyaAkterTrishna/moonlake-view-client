@@ -1,7 +1,8 @@
 import Hero from "../../Hero/Hero";
+import Properties from "../../Properties/Properties";
 import Banner from "../Banner/Banner";
 import LatestProperties from "../LatestProperties/LatestProperties";
-import Properties from "../Properties/Properties";
+
 
 
 const Home = () => {

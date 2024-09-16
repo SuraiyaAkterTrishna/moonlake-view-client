@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import Property from "../../Property/Property";
+import Property from "../Property/Property";
 
 const Properties = () => {
   const [properties, setProperties] = useState([]);
@@ -12,10 +12,10 @@ const Properties = () => {
   }, []);
 
   return (
-    <section className="my-12">
+    <section className="mb-8">
       <div className="flex justify-center items-center">
         <div className="text-center w-2/3">
-          <h1 className="text-3xl font-semibold">
+          <h1 className="text-3xl font-semibold mt-8">
             Find Your Dream Properties Here
           </h1>
           <p className="text-gray-500 mb-8">
